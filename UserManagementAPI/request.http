@@ -1,6 +1,6 @@
 
 @host = http://localhost:5163
-@token = Bearer mysecrettoken
+@token = raman
 
 ###
 
@@ -48,3 +48,4 @@ Content-Type: application/json
 
 DELETE {{host}}/users/3
 Authorization: {{token}}
+
