@@ -1,6 +1,7 @@
 # UserManagementApi
 
-A lightweight User Management API built with ASP.NET Core Minimal APIs, showcasing clean functional design.  
-Activity 1 covers basic CRUD operations with in-memory storage, while Activity 2 adds validation, consistent error handling.  
-Activity 3 introduces custom middleware for error handling, token-based authentication, and request/response logging.  
-The project uses a simple, organized folder structure with top‑level statements and production-style middleware components.
+This project is a minimal ASP.NET Core Web API built with custom middleware for error handling, authentication, and logging.  
+It includes CRUD operations for managing users with fields like Id, Name, and Role.  
+Authentication is implemented using a simple token-based middleware.  
+The `.http` file allows easy testing of all API endpoints with the required authorization header.
+
