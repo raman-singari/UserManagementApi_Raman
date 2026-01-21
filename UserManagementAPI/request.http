@@ -1,0 +1,50 @@
+
+@host = http://localhost:5163
+@token = raman
+
+###
+
+GET {{host}}/users
+Authorization: {{token}}
+
+
+
+###
+
+GET {{host}}/users/1
+Authorization: {{token}}
+
+
+
+###
+
+POST {{host}}/users
+Authorization: {{token}}
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Tony",
+  "role": "Tax"
+}
+
+
+
+###
+
+PUT {{host}}/users/2
+Authorization: {{token}}
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Raman Updated",
+  "role": "Consulting"
+}
+
+
+
+###
+
+DELETE {{host}}/users/3
+Authorization: {{token}}
